@@ -1,0 +1,113 @@
+/* eslint-disable @next/next/no-img-element */
+import React from "react";
+
+export default function page() {
+  return (
+    <section className="my-12">
+      <div className="container mx-auto ">
+        <div className="max-w-auto mx-auto shadow-lg overflow-hidden">
+          {/* Name at Top */}
+          <div className="w-full mb-4">
+            <img
+              src="/3.jpg"
+              alt="John Doe"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+
+          {/* Content Area */}
+          <div className="p-8">
+            {/* Centered Profile Image */}
+
+            <div className="  px-8 text-left border-b-2 border-gray-400 bg-gray-50 mb-6">
+              <h3 className="text-5xl text-blue-800 font-bold mb-4">
+                NISCHAL SHRESTHA
+              </h3>
+              {/* <p className="text-lg font-semibold mt-2">Founder & CEO</p> */}
+            </div>
+
+            {/* Description */}
+            <div className="text-justify">
+              <div className="prose max-w-none mx-auto">
+                <p className="text-gray-700 text-lg leading-relaxed mt-4 ">
+                  Tired of the retail runaround? A young entrepreneur passionate
+                  about bringing modern retail experiences to local communities
+                  across Nepal. Born in Vyas Municipality, Tanahun District.
+                  Business has always been a part of Shrestha’s roots. His
+                  father started a small grocery business even before Shrestha
+                  was born — a humble store built on trust, honesty, and a deep
+                  sense of service to the community. As Shrestha grew up, he
+                  watched his father’s dedication, hard work, and unwavering
+                  commitment to his customers, which left a lasting impression
+                  on him. Inspired by his father’s values, Shrestha decided to
+                  carry forward the family dream — but in a new and modern way.
+                  This vision gave birth to Lasata, a fresh and innovative brand
+                  that honors his father’s legacy while embracing modern retail
+                  concepts. Through Lasata, Shrestha continues to blend
+                  traditional values with a customer-focused, forward-thinking
+                  approach, keeping the family’s spirit of service alive for a
+                  new generation. Meet Shrestha, the visionary founder who is
+                  integrating technology and time-tested business values to
+                  revolutionize the market., Successfully completed 10+2 in
+                  Computer Engineering with an A grade, and currently pursuing
+                  Bachelor’s degree in a related field. Shrestha’s technical
+                  background inspires to integrate modern technology and digital
+                  systems into business operations, creating a smarter and more
+                  efficient shopping experience.
+                </p>
+                <p className="text-2xl text-blue-800  font-semibold mt-12 ">
+                  VISION
+                </p>
+                <p className="text-gray-700  text-lg leading-relaxed mt-4">
+                  To serve every corner of Nepal by providing easy access to
+                  quality products at fair prices — building trust and
+                  connection with customers across the nation. Lasata aims to
+                  become a household name known for honesty, convenience, and
+                  care.
+                </p>
+                <p className="text-2xl text-blue-800  font-semibold mt-12 ">
+                  Mr. Nischal Shrestha&#39;s Legacy{" "}
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mt-4">
+                  Lasata is more than just a growing brand — it’s a family story
+                  continued with pride. What started as a small grocery shop by
+                  his father has now become a modern marketplace under Nischal’s
+                  leadership, carrying forward the same honesty, dedication, and
+                  love for the community.
+                </p>
+
+                <p className="text-2xl text-blue-800  font-semibold mt-12 ">
+                  Message from the Founder
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mt-4">
+                  “Dream big, stay consistent — success follows those who serve
+                  with heart.”
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mt-4">
+                  My father started the dream with hard work and honesty — I’m
+                  carrying it forward with heart and innovation. Lasata is more
+                  than a store; it’s a family story, a legacy of love, and a
+                  promise to serve every corner of Nepal with pride.”
+                </p>
+                <div className="mt-6 flex flex-wrap gap-2 justify-center">
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                    Visionary
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                    Leader
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                    Entrepreneur
+                  </span>
+                  <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">
+                    Mentor
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
